@@ -16,9 +16,9 @@ public class Simple_Calculator extends javax.swing.JFrame {
     public Simple_Calculator() {
         initComponents();
     }
-    static double value1;
-    static double value2;
-    static String operator;
+    static double value1; // declaring double value for vlaue 1
+    static double value2; // declaring double value for vlaue 2
+    static String operator; // declaring string value for operator
     
     
     /**
@@ -334,163 +334,163 @@ public class Simple_Calculator extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        if(jTextField1.getText().isEmpty())
+        if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
-            jTextField1.setText(jButton4.getText());
-            value1 = 4;          
+            jTextField1.setText(jButton4.getText()); 
+            value1 = 4; // initializing the value 1 for button 4
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton4.getText());
-            value2 = 4;
+            value2 = 4;  //initializing the value 2 for button 4
         }
     }                                        
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        if(jTextField1.getText().isEmpty())
+        if(jTextField1.getText().isEmpty())// if statment that contains get text anf set text
         {
             jTextField1.setText(jButton10.getText());
-            value1 = 0;          
+            value1 = 0;  //  initializing the value for button 0
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton10.getText());
-            value2 = 0;
+            value2 = 0; //  initializing the value for button 0
         }
     }                                         
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
 
-        if(jTextField1.getText().isEmpty())
+        if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton1.getText());
-            value1 = 1;          
+            value1 = 1;          //  initializing the value for button 1
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton1.getText());
-            value2 = 1;
+            value2 = 1; //  initializing the value for button 1
         }
     }                                        
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-                 if(jTextField1.getText().isEmpty())
+                 if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton2.getText());
-            value1 = 2;          
+            value1 = 2;          //  initializing the value for button 2
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton2.getText());
-            value2 = 2;
+            value2 = 2;//  initializing the value for button 1
         }
     }                                        
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-       if(jTextField1.getText().isEmpty())
+       if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton3.getText());
-            value1 = 3;          
+            value1 = 3;          //  initializing the value for button 3
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton3.getText());
-            value2 = 3;
+            value2 = 3; //  initializing the value for button 3
         }
     }                                        
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-     if(jTextField1.getText().isEmpty())
+     if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton5.getText());
-            value1 = 5;          
+            value1 = 5;          //  initializing the value for button 5
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton5.getText());
-            value2 = 5;
+            value2 = 5; //  initializing the value for button 5
         }
     }                                        
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        if(jTextField1.getText().isEmpty())
+        if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton6.getText());
-            value1 = 6;          
+            value1 = 6;          //  initializing the value for button 6
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton6.getText());
-            value2 = 6;
+            value2 = 6; //  initializing the value for button 6
         }
     }                                        
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-       if(jTextField1.getText().isEmpty())
+       if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton7.getText());
-            value1 = 7;          
+            value1 = 7;        //  initializing the value for button 7  
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton7.getText());
-            value2 = 7;
+            value2 = 7;//  initializing the value for button 7
         }
     }                                        
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        if(jTextField1.getText().isEmpty())
+        if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton8.getText());
-            value1 = 8;          
+            value1 = 8;          //  initializing the value for button 8
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton8.getText());
-            value2 = 8;
+            value2 = 8; //  initializing the value for button 8
         }
     }                                        
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        if(jTextField1.getText().isEmpty())
+        if(jTextField1.getText().isEmpty()) // if statment that contains get text anf set text
         {
             jTextField1.setText(jButton9.getText());
-            value1 = 9;          
+            value1 = 9;      //  initializing the value for button 9    
         } else {
             jTextField1.setText(jTextField1.getText()+ "" + jButton9.getText());
-            value2 = 9;
+            value2 = 9;//  initializing the value for button 9
         }
     }                                        
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-               if(!(jTextField1.getText().isEmpty())){
-        operator = "multiplication";
-        jTextField1.setText(jTextField1.getText()+ "*");
+               if(!(jTextField1.getText().isEmpty())){ // 
+        operator = "multiplication"; // initilizing  multiply for the equal button
+        jTextField1.setText(jTextField1.getText()+ "*"); // displaying multiply sign on textfield
         }
     }                                         
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        jTextField1.setText("");
+        jTextField1.setText(""); // clear button, when I press it set textfield to ""
     }                                         
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                          
                   if(!(jTextField1.getText().isEmpty())){
-        operator = "plus";
-        jTextField1.setText(jTextField1.getText()+ "+");
+        operator = "plus"; // initilizing  plus for the equal button
+        jTextField1.setText(jTextField1.getText()+ "+");// displaying add sign on textfield
         }
     }                                         
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {                                          
               if(!(jTextField1.getText().isEmpty())){
-        operator = "minus";
-        jTextField1.setText(jTextField1.getText()+ "-");
+        operator = "minus"; // initilizing  subtract for the equal button
+        jTextField1.setText(jTextField1.getText()+ "-");// displaying subtract sign on textfield
         }
     }                                         
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                          
               if(!(jTextField1.getText().isEmpty())){
-        operator = "division";
-        jTextField1.setText(jTextField1.getText()+ "/");
+        operator = "division"; // initilizing  division for the equal button
+        jTextField1.setText(jTextField1.getText()+ "/"); // displaying subtract sign on textfield
         }
     }                                         
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {                                          
        double answer = 0;
-         if(operator == "plus"){
+         if(operator == "plus"){ // if user press plus button, the answer will be value 1 + vlue2
              answer = value1 + value2;
          }
-                else if(operator== "minus"){
+                else if(operator== "minus"){  //if user press minus button, the answer will be value 1 - vlue2
              answer = value1 - value2;
          }
-              else if(operator == "multiplication"){
+              else if(operator == "multiplication"){ //  if user press Multiply button, the answer will be value 1 * vlue2
              answer = value1 * value2;
          }
-                else if(operator == "division"){
+                else if(operator == "division"){ // if user press division button, the answer will be value 1 / vlue2
              answer = value1/value2;
          }
-         String Result = Double.toString(answer);
+         String Result = Double.toString(answer); // after checking which button they press, print the answer on the jtextfield
          jTextField1.setText(Result);
 
 
@@ -498,8 +498,8 @@ public class Simple_Calculator extends javax.swing.JFrame {
     }                                         
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        int length = jTextField1.getText().length();
-        int number = jTextField1.getText().length() - 1;
+        int length = jTextField1.getText().length(); // declaring legnth for calculator to understand and check how much number are displaied on the screen
+        int number = jTextField1.getText().length() - 1; // subtract one value from the screen every time user press th button
         String store;
         
         if(length > 0){
@@ -512,7 +512,7 @@ public class Simple_Calculator extends javax.swing.JFrame {
     }                                         
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-       jTextField1.setText(jTextField1.getText()+ ".");
+       jTextField1.setText(jTextField1.getText()+ "."); // desmo button
     }                                         
 
     /**
